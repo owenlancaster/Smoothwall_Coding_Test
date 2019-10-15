@@ -2,7 +2,13 @@
 
 ## Getting Started
 
-The main script is called smoothwall.pl (run on command line with "perl ./smoothwall.pl")- Main input is a test hardcoded fake apache log file (access.log) that I generated using a Python script (https://github.com/kiritbasu/Fake-Apache-Log-Generator)- Error and debug logs are created- Parse apache log file and collect data and calculate counts of IP addresses- Print apache data and IP addresses to output text files- Also use Chart::Plotly cpan module to graphically visualize the counts of IP addresses with an interactive bar chart (which should open in the browser when the script is run)
+The main script is called smoothwall.pl (run on command line with "perl ./smoothwall.pl")- Main input is a test hardcoded fake apache log file (access.log) that I generated using a Python script (https://github.com/kiritbasu/Fake-Apache-Log-Generator)- Error and debug logs are created- 
+
+The apache log file is parsed and relevant data is collected and counts of IP addresses calculated
+
+The apache data and IP addresses count are outputted to output text files
+
+Chart::Plotly cpan module is used to graphically visualize the counts of IP addresses with an interactive bar chart (which should open in the browser when the script is run)
 
 ### Prerequisites
 
