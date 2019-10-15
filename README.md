@@ -14,10 +14,10 @@ Chart::Plotly cpan module is used to graphically visualize the counts of IP addr
 
 ### Prerequisites
 
-DateTime
-Data::Dumper
-Socket
-Log::Log4perl
+DateTime<br/>
+Data::Dumper<br/>
+Socket<br/>
+Log::Log4perl<br/>
 
 ### Installing
 
@@ -31,19 +31,19 @@ perl ./smoothwall.pl
 
 ### Outputs
 
-2 log files:
+2 log files:<br/>
 ```
 smoothwall_debug.log
 smoothwall_error.log
 ```
 
-2 main output text files for main apache data parsed and the other for domain counts:
+2 main output text files for main apache data parsed and the other for domain counts:<br/>
 ```
 apache_data.txt
 domain_count.txt
 ```
 
-Plotly graph for visualization of domain count (auto-generated and should open in browser)
+Plotly graph for visualization of domain count (auto-generated and should open in browser)<br/>
 
 ## Authors
 
