@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-The main script is called smoothwall.pl (run on command line with "perl ./smoothwall.pl")- Main input is a test hardcoded fake apache log file (access.log) that I generated using a Python script (https://github.com/kiritbasu/Fake-Apache-Log-Generator)- Error and debug logs are created- 
+The main script is called smoothwall.pl (run on command line with "perl ./smoothwall.pl")
+
+The main input is a hardcoded fake apache log file (access.log) that was generated using a Python script (https://github.com/kiritbasu/Fake-Apache-Log-Generator)- Error and debug logs are also created along with other outputs
 
 The apache log file is parsed and relevant data is collected and counts of IP addresses calculated
 
