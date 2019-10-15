@@ -16,7 +16,7 @@ Chart::Plotly cpan module is used to graphically visualize the counts of IP addr
 
 DateTime
 Data::Dumper
-Socket;
+Socket
 Log::Log4perl
 
 ### Installing
