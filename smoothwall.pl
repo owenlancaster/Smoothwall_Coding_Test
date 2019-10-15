@@ -118,7 +118,7 @@ my $domain_count_barchart = Chart::Plotly::Trace::Bar->new( x    => $x_ref,
 my $plot = Chart::Plotly::Plot->new( traces => [ $domain_count_barchart ] );
 Chart::Plotly::show_plot($plot);
 
-# Open domain count text file for write
+# Open apache data text file for write
 my $apache_data_outfile = 'apache_data.txt';
 open(my $ap, '>', $apache_data_outfile) or die "Could not open file '$apache_data_outfile' $!";
 
